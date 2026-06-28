@@ -84,3 +84,6 @@ DEPT_INFO = {
         'next':['Visit Level 2, Wing D','Estimated wait: 15–20 min','Bring photos of affected area if possible']
     },
 }
+
+st.title("🏥 Smart Hospital Patient Navigator")
+st.write("Aplikasi berhasil berjalan!")
