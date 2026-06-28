@@ -158,3 +158,6 @@ with st.form("triage_form"):
         duration = st.selectbox("Duration", options=list(dur_map.keys()), index=1)
 
     st.markdown("<br>", unsafe_allow_html=True)
+
+
+submitted = st.form_submit_button("Get AI Recommendation")
